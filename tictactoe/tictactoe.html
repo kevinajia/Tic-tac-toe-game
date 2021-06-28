@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Tic-Tac-Toe </title>
+  <meta charset="UTF-8">
+  <meta name = "description" content = "Tic-Tac-Toe">
+  <meta name="author" content= "Kevin Jia">
+  <link href = "tictactoe.css" rel = "stylesheet"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+  <script src="tictactoe.js" defer> </script>  
+</head>
+
+<body>
+<table id="tic-tac-toe" align="center">
+	<tbody>
+        <h1> Tic-Tac-Toe </h1>
+		<tr>
+			<td>
+				<button data-row="0" data-column="0" id = "but1">row 0 column 0</button>
+			</td>
+			<td>
+				<button data-row="0" data-column="1">row 0 column 1</button>
+			</td>
+			<td>
+				<button data-row="0" data-column="2">row 0 column 2</button>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<button data-row="1" data-column="0">row 1 column 0</button>
+			</td>
+			<td>
+				<button data-row="1" data-column="1">row 1 column 1</button>
+			</td>
+			<td>
+				<button data-row="1" data-column="2">row 1 column 2</button>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<button data-row="2" data-column="0">row 2 column 0</button>
+			</td>
+			<td>
+				<button data-row="2" data-column="1">row 2 column 1</button>
+			</td>
+			<td>
+				<button data-row="2" data-column="2">row 2 column 2</button>
+			</td>
+        </tr>
+        
+    </tbody>
+
+</table>
+
+<br>
+
+<table id="scoreboard" align="center">
+    <tr>
+      <td> Player X </td>
+      <td width="30"> &nbsp; </td>
+      <td> Player O </td>
+    </tr>
+    <tr>
+      <td class="score" id="player1">
+        0 
+      </td>
+      <td> &nbsp; </td>
+      <td class="score" id="player2">
+        0 
+      </td>
+    </tr>
+</table>
+
+
+<div id="placeholder"></div>
+
+<br>
+
+<button class= "button" onclick="restart()">
+  Replay
+</button>
+<!-- <select onchange="restart(this.value)"> -->
+
+
+<!-- <label for = "Xscore" id = "Xscore" align = "center"> X - Score: </label>
+<br>
+
+<label for = "Oscore" id = "Oscore" align = "center"> O - Score: </label>
+<br>
+
+<input type = "reset" align = "center" value = "Replay"/>
+<br> -->
+
+</body>

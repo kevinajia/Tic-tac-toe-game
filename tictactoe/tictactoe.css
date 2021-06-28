@@ -1,0 +1,84 @@
+#tic-tac-toe
+{
+	border-collapse: collapse;
+}
+
+h1 {
+    font-family: Arial;
+    text-align: center;
+    color: #FFA500
+}
+
+body {
+    background-color: royalblue;
+}
+
+#tic-tac-toe td
+{
+    background-color: cornflowerblue;
+    text-align: center;
+	width: 15vmin;
+	height: 15vmin;
+	padding: 0;
+	border: 1px solid black;
+	color: transparent;
+}
+
+#tic-tac-toe .px
+{
+    background-image: url("X.png");
+    background-size: 138px 138px;
+}
+
+#tic-tac-toe .po
+{
+    background-image: url("O.png");
+    background-size: 138px 138px;
+}
+
+#tic-tac-toe button
+{
+	display: block;
+	border: none;	
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	color: transparent;
+	cursor: pointer;
+}
+
+#tic-tac-toe button::-moz-focus-inner
+{
+	border: none;
+}
+
+#tic-tac-toe button:focus
+{
+	background: silver;
+}
+
+#Xscore {
+    text-align: center;
+}
+
+#Oscore {
+    text-align: center;
+}
+
+#reset {
+    text-align: center;
+}
+
+.button {
+    width: 100px;
+    background-color: #FFA500;
+    color: royalblue;
+    padding: 15px;
+    margin:0 auto;
+    display:block;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 120%;
+ }
